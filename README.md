@@ -170,7 +170,7 @@
 与此同时您可以扫描左下方群聊二维码加入我们的微信讨论群，或者您可以扫描右边“天下大木头(KpLi0rn)”的个人二维码备注“Packer Fuzzer”由他拉您入群聊：
 
 <p align="center">
-    <img alt="QR-code" src="https://data.hackinn.com/photo/PF-QRcode.jpeg?date=0105" width="20%" height="20%" style="max-width:100%;">
+    <img alt="QR-code" src="https://data.hackinn.com/photo/PF-QRcode.jpeg?date=0121" width="20%" height="20%" style="max-width:100%;">
     <img alt="QR-code" src="https://data.hackinn.com/photo/DMT-QRcode.jpg" width="20%" height="20%" style="max-width:100%;">
 </p>
 
@@ -203,3 +203,15 @@
   2. 改进了全局证书校验忽略的部分;
 
   3. 修复了多处可能会导致扫描器产生严重错误的bug.
+
+- v1.2 2021/01/21
+
+  1. 增加前端打包器识别功能和资产树显示功能;
+
+  2. 优化了异步提取规则并新增了两类API识别规则;
+
+  3. 修复了报告及数据库无法正确生成的bug;
+
+  4. 增加了静默模式，便于批量测试或多平台联动;
+
+  5. 紧急修复了一个可能会导致任意命令执行的漏洞。
